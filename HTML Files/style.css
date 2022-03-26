@@ -1,0 +1,134 @@
+*{
+  text-decoration: none;  
+}
+body{
+    background-color: #312c2c;
+}
+
+section .Lakers{
+    background-color:blueviolet;position: relative;
+    width: calc(350px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+section .Heats{
+    background-color: rgb(150, 27, 27);
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+section .Warriors{
+    background-color:rgb(150, 150, 211);
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+section .Bucks{
+    background-color:rgb(78, 112, 78);
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+section .Grizzlies{
+    background-color: rgb(87, 93, 100);
+    position: relative;
+    width: calc(350px - 30px);
+    height: calc(300px - 30px);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+section .Box .icon img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    color:#fff;
+}
+
+section .Box .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+section .Box:hover .icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+section .Box:hover .icon img{
+    font-size: 40px;
+}
+
+section .Box .content{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100%);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+
+section .Box:hover .content{
+    top: 100px;
+    opacity: 1;
+}
+
+section .Box .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+
+}
+
+section .Box .content p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+
+
+
+
